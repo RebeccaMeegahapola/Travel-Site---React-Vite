@@ -1,0 +1,184 @@
+
+.service {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    position: relative;
+}
+
+.headerContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 40px;
+    font-weight: 600;
+    color: #dae339;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 40%;
+}
+
+.services {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    margin: 80px auto;
+    gap: 90px;
+  }
+  
+  .services .left-side {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .services .right-side {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .service-heading{
+    font-size: 40px;
+    color: rgb(73, 72, 72);
+    font-weight: 800;
+  }
+
+  .service-heading span{
+    font-size: 40px;
+    color: #dae339;
+    font-weight: 800;
+  }
+
+  .right-side .service-decs{
+    letter-spacing: 1px;
+    color: rgb(102, 102, 102);
+    word-spacing: 2px;
+  }
+
+  .service-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .service-card {
+    margin-top: 20px;
+    height: 180px;
+    width: 180px;
+    padding: 20px;
+    background-color: #f0f0ec;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .service-description {
+    font-size: 16px;
+    color: #272626;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: system-ui;
+  }
+
+.serviceImage {
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.serviceBtn{
+    width: 200px;
+    background-color: #dae339;
+    color: white;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.serviceDiv{
+    padding: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 415px;
+    margin-bottom: 170px;
+}
+
+.servicePara{
+    font-size: 18px;
+    color: #d08c27;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: system-ui;
+    text-align: center;
+}
+
+.service-heading1{
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+
+.btnDiv{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.serviceBtn1{
+    width: 200px;
+    background-color: #dae339;
+    color: white;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.serviceCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 40px 0px;
+    justify-items: center;
+  }
+
+  .serviceCardGroup {
+    margin-top: 20px;
+    height: 250px;
+    width: 300px;
+    padding: 20px;
+    background-color: #f5e4d5;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  .card-description {
+    font-size: 16px;
+    color: #898686;
+    font-weight: 700;
+    margin: 15px 0px;
+    font-family: system-ui;
+  }
+
+.cardImage {
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+.card-heading{
+    font-size: 22px;
+    color: rgb(203, 128, 43);
+    font-weight: 800;
+}
+
+

@@ -1,0 +1,149 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    position: relative;
+}
+
+.headerContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 40px;
+    font-weight: 600;
+    color: #dae339;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 40%;
+}
+
+.about-content {
+    width: 90%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.about-heading{
+    font-size: 40px;
+    color: rgb(134, 192, 83);
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.country {
+    color: hsl(0, 0%, 35%);
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.price{
+    color: #8c8f1b;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.about-box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px hsl(0, 0%, 35%);
+    padding: 30px;
+    margin: 20px;  
+}
+@media (max-width: 450px) {
+    .about-box {
+        height: 200px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .about-box {
+        text-align: center;
+        height: 180px;
+    }
+}
+
+.cyan {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    border-bottom: 3px solid hsl(180, 62%, 55%);
+}
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .box-down {
+        position: relative;
+        top: 50px;
+    }
+    .about-box {
+        width: 100%;   
+    }
+}
+
+.about-content2{
+    height: 600px;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.about-para{
+    text-align: center;
+    width: 65%;
+    font-size: 16px;
+    color: white;
+    margin: 20px auto;
+}
+
+.heading{
+    color: white;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text {
+    color: hsl(0, 0%, 35%);
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+}
+
+.box-down i {
+    font-size: 30px;
+    margin-top: 14px;
+}
+
+.iconDiv {
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px auto 15px;
+}
